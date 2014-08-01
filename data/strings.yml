@@ -903,7 +903,7 @@
 # -------------------------------------------------------------------------------------- #
 - lang: 'hu'
   is_complete: false
-  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_XY'
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_hu'
   book_title: 'Discover Meteor'
   intro: >
     This is the Hungarian version of [Discover Meteor](http://discovermeteor.com),

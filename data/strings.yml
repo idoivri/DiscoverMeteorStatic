@@ -606,30 +606,30 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_hr'
   book_title: 'Discover Meteor'
   intro: >
-    This is the Croatian version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
+    Ovo je Hrvatska verzija knjige [Discover Meteor](http://discovermeteor.com),
+    prevedena od strane Meteor zajednice i dostupna besplatno pod licencom
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) licencom.
+  toc: 'Sadržaj'
+  contribute: 'Pomogni'
+  on_github: '<em>Discover Meteor</em> na GitHub-u'
+  translated_by: 'Prevedeno od: '
+  code_issue: 'Prijavi grešku u kodu'
+  book_issue: 'Prijavi grešku u knjizi'
+  discuss: "Ili komentirajte sadržaj knjige ovdje: "
+  in_this_chapter: "U ovom poglavlju, vi ste:"
+  sidebar: "Dodatak"
+  and: "i"
   commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+  view_on_github: "Pogledaj na GitHub-u"
+  launch_instance: "Pokreni instancu"
+  error404: "Žao nam je, nismo mogli pronaći traženi pojam."
   disqus: ""
   ga: ""
-  percentage_translated: 'Percentage Translated'
-  download: 'Download'
-  print_pdf: 'Print > Save as PDF'
+  percentage_translated: 'Postotak prijevoda'
+  download: 'Preuzmi'
+  print_pdf: 'Print > Spremi kao PDF'
   language_name: ''
-  last_activity: 'Last activity:'
+  last_activity: 'Zadnja aktivnost:'
   
 # -------------------------------------------------------------------------------------- #
 #                                           Malay                                        #

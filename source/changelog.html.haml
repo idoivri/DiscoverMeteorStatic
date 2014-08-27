@@ -1,0 +1,12 @@
+---
+title: Discover Meteor
+---
+
+- content_for(:title, "Discover Meteor")
+
+- changelog = blog.articles[0]
+
+%h2=changelog.data.title 
+
+=find_and_preserve do
+  = changelog.body

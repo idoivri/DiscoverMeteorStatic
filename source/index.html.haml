@@ -53,7 +53,7 @@
       %h3=@strings.version
       %p 
         #{@strings.version} #{changelog['version']}, updated #{changelog['updated']} 
-        %a{:href => '/changelog'} (changelog)
+        (<a href="/changelog">#{changelog['title']}</a>)
 
 :javascript
   $(function(){

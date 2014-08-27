@@ -9,8 +9,14 @@
 	@include animate;
 }
 .post-content{
-	h3{
+	h2{
+		font-weight:light();
 		border-bottom:1px solid $light-bg;
+	}
+	h3{
+		font-weight:light();
+		border-bottom:1px solid $light-bg;
+		padding-bottom: 8px;
 		clear:both;
 	}
 }
@@ -207,6 +213,7 @@ pre, code, pre span, code span{
 }
 code{
 	background:lighten($light-bg, 5%);
+	padding: 1px 5px;	
 }
 pre{
 	// border-top:1px darken($light-bg, 10%) solid;
@@ -339,21 +346,30 @@ pre{
 blockquote, blockquote p{
 	font-style:italic;
 }
-.sidebar-marker{
+.marker{
 	font-family:'source-code-pro', 'Source Code Pro' , monospace;
 	text-transform:uppercase;
 	@include border-radius(100px);
 	display:inline-block;
 	text-align:center;
-	background:$medium-bg;
 	font-size:12px;
 	height:20px;
-	line-height:20px;
+	line-height:22px;
 	position:relative;
-	top:-5px;
+	// top:-5px;
 	margin-left:5px;
 	padding:0px 10px;
 	font-weight:normal();
+	vertical-align: middle;
+}
+.sidebar-marker{
+	background:$medium-bg;
+}
+.special-marker{
+	background:$yellow;	
+}
+.draft-marker{
+	background:$blue;	
 }
 .issues{
 	padding:20px;
@@ -372,4 +388,7 @@ blockquote, blockquote p{
 		color:$text;
 		font-size:14px;
 	}
+}
+.version-marker{
+	background:$medium-bg;	
 }

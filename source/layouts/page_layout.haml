@@ -23,11 +23,12 @@
         .translation-progress.note
           %p= @strings.percentage_translated
           %progress#progress{:max => current_article.data.paragraphs}
-      .chapter-summary.note.chapter
-        %h3= @strings.in_this_chapter
-        %ul
-        - current_article.data.contents.split('|').each do |item|
-          %li= item
+      - if current_article.data.contents
+        .chapter-summary.note.chapter
+          %h3= @strings.in_this_chapter
+          %ul
+          - current_article.data.contents.split('|').each do |item|
+            %li= item
       =find_and_preserve do
         =yield
 

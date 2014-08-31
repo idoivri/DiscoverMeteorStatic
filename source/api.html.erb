@@ -11,7 +11,7 @@ total_todo = 0
       chapter_code = post.data.number.to_s()
       paragraphs_to_go = @togo.select{|key, value| key == chapter_code }[chapter_code].to_i()
       # puts post.data
-      unless post.data.published == false || post.data.extra == true
+      unless post.data.published == false || post.data.extra == true || !post.data.paragraphs
         paragraphs_done = post.data.paragraphs - paragraphs_to_go
         percentage = paragraphs_done*100/post.data.paragraphs
         total_done += paragraphs_done

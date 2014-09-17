@@ -243,8 +243,8 @@
   book_title: 'Meteor entdecken'
   intro: >
     Dies ist die deutsche Version von [Discover Meteor](http://discovermeteor.com),
-    übersetzt von der Discover-MeteorGemeinschaft und gratis zur Verfügung gestellt unter der Lizenz
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
+    übersetzt von der Discover-Meteor-Gemeinschaft und gratis zur Verfügung gestellt unter der Lizenz
+    [Creative Commons Namensnennung-Nicht kommerziell](http://creativecommons.org/licenses/by-nc/4.0/deed.de).
   toc: 'Inhaltsverzeichnis'
   contribute: 'Mitmachen'
   on_github: '<em>Discover Meteor</em> auf GitHub'
@@ -252,7 +252,7 @@
   code_issue: 'Problem mit dem Code melden'
   book_issue: 'Problem mit dem Buchtext melden'
   discuss: "Oder diskutiere über das Buch:"
-  in_this_chapter: "In diesm Kapitel wirst du:"
+  in_this_chapter: "In diesem Kapitel wirst du:"
   sidebar: "Randfenster"
   and: "und"
   commit: "Commit"

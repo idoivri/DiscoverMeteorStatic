@@ -240,32 +240,32 @@
 - lang: 'de'
   is_complete: false
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_De'
-  book_title: 'Discover Meteor'
+  book_title: 'Meteor entdecken'
   intro: >
-    This is the English version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
+    Dies ist die deutsche Version von [Discover Meteor](http://discovermeteor.com),
+    übersetzt von der Discover-MeteorGemeinschaft und gratis zur Verfügung gestellt unter der Lizenz
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
+  toc: 'Inhaltsverzeichnis'
+  contribute: 'Mitmachen'
+  on_github: '<em>Discover Meteor</em> auf GitHub'
+  translated_by: 'Übersetzt von'
+  code_issue: 'Problem mit dem Code melden'
+  book_issue: 'Problem mit dem Buchtext melden'
+  discuss: "Oder diskutiere über das Buch:"
+  in_this_chapter: "In diesm Kapitel wirst du:"
+  sidebar: "Randfenster"
+  and: "und"
   commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
-  disqus: "themeteorbook"
+  view_on_github: "Auf GitHub ansehen"
+  launch_instance: "Instanz starten"
+  error404: "Leider konnten wir das Gesuchte nicht finden."
+  disqus: "discovermeteorde"
   ga: ""
-  percentage_translated: 'Percentage Translated'
+  percentage_translated: 'Zu ...% übersetzt'
   download: 'Download'
-  print_pdf: 'Print > Save as PDF'
-  language_name: ''
-  last_activity: 'Last activity:'
+  print_pdf: 'Drucken > Als PDF speichern'
+  language_name: 'Deutsch'
+  last_activity: 'Letzte Aktivität:'
 
 # -------------------------------------------------------------------------------------- #
 #                                           Korean                                       #

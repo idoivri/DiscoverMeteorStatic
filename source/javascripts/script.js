@@ -90,7 +90,8 @@ $(function(){
     // block level elements
     $.each(lines, function(index, line){
       if($.inArray(index+1, finalArray) == -1){
-        lines[index] = '<span class="line">' + lines[index] + '</span>'
+        var lineContent = lines[index] == '' ? '\n' : lines[index];
+        lines[index] = '<span class="line">' + lineContent + '</span>'
       }else{
         lines[index] = '<span class="line highlighted '+highlightClass+'">' + lines[index] + '</span>'
       }

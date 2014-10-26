@@ -46,3 +46,11 @@ In some cases, the `README.md` file included with each language's repo can trigg
 
 Pushing a commit to this repo will automatically redeploy all translation instances ([see full list](https://www.discovermeteor.com/translations)).
 
+Here's the full process, step by step:
+
+1. Update a language's translation. 
+2. Commit your changes and push them to the GitHub repo (for example, [DiscoverMeteor_Es](https://github.com/DiscoverMeteor/DiscoverMeteor_Es)).
+3. Go to your local copy of the `DiscoverMeteorStatic` repo.
+4. Update all submodules (including your language's translation) with `git submodule foreach git pull origin master`.
+5. Commit your changes to the submodules (with `git add -A` and `git commit -m 'updated languages'` as usual).
+6. Push your changes to the `DiscoverMeteorStatic` repo.

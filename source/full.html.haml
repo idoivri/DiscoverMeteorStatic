@@ -4,33 +4,7 @@ title: Discover Meteor
 
 - content_for(:title, "Discover Meteor")
 
-%section.inner-cover
-  .title
-    %h1
-      %span Discover
-      %strong Meteor
-    %h2 Building Real-Time JavaScript Web Apps
-    - chapter1 = blog.articles.reverse[0].data
-    - if chapter1.version && chapter1.updated
-      %p.version #{@strings.version} #{chapter1['version']} (updated #{chapter1['updated']})
-    %p 
-  %footer
-    .credits
-      %h3 Tom Coleman &amp; Sacha Greif
-      %p
-        Cover photo credit:
-        %a{:href => 'http://www.flickr.com/photos/dobieks/4889222256/in/photostream/'} Perseid Hunting
-        by Darren Blackburn, licensed under a Creative Commons Attribution 2.0 Generic license.
-    .site
-      %a{:href => "http://discovermeteor.com"} www.discovermeteor.com
+=partial("partials/postcover")
+
 - blog.articles.reverse_each do |chapter|
-  - unless chapter.data.published == false || chapter.data.extra == true
-    %section.chapter
-      .post-content
-        .chapter-heading
-          %h2.chapter-title{:id => chapter.data.title.downcase.gsub(/\s+/, "").gsub(/&+/, "")}=chapter.data.title
-          -if chapter.data.sidebar
-            %span.sidebar-marker Sidebar
-          %span.chapter-number=chapter.data.number
-        =find_and_preserve do
-          = chapter.body
+  =partial("partials/print_chapter", :locals=>{chapter:chapter})

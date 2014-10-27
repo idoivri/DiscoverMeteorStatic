@@ -2,20 +2,25 @@
 title: Discover Meteor
 ---
 
+- chapters = blog.articles.last(14).reverse
+
 - content_for(:title, "Discover Meteor")
 
 =partial("partials/cover")
 
 =partial("partials/postcover")
 
-- blog.articles.last(4).reverse_each do |chapter|
+
+=partial("partials/print_toc", :locals=>{chapters:chapters})
+
+- chapters.each do |chapter|
   =partial("partials/print_chapter", :locals=>{chapter:chapter})
 
 .section.cta
   %h1 Congratulations!
-  %h2 You've wrapped up the first four chapters of <em>Discover Meteor</em>.
+  %h2 You've wrapped up the Starter Edition of <em>Discover Meteor</em>.
   %p 
-    %a{:href => "https://www.discovermeteor.com/packages?utm_source=newsletter&utm_medium=pdf&utm_campaign=excerpt"}Get the full book
+    %a{:href => "https://www.discovermeteor.com/packages?utm_source=starter&utm_medium=starter&utm_campaign=starter"}Get the full book
     to learn about:
   %ul
     %li Managing user accounts.

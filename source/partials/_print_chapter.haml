@@ -1,0 +1,9 @@
+- unless chapter.data.published == false || chapter.data.extra == true
+  %section.chapter.post-content
+    .chapter-heading
+      %h2.chapter-title{:id => chapter.data.slug}=chapter.data.title
+      -if chapter.data.sidebar
+        %span.sidebar-marker Sidebar
+      %span.chapter-number=chapter.data.number
+    =find_and_preserve do
+      = chapter.body

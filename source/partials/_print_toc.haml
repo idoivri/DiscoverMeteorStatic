@@ -1,0 +1,10 @@
+%section.toc
+  .chapter-heading
+    %h2.chapter-title Table of Contents
+  %ul.toc-list
+    - chapters.each do |chapter|
+      %li.chapter-heading
+        %a.chapter-title{:href => "#"+chapter.data.slug}=chapter.title
+        - if chapter.data.sidebar
+          %span.sidebar-marker Sidebar
+        %span.chapter-number=chapter.data.number  

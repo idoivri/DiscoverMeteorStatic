@@ -182,7 +182,9 @@ blockquote{
 		}
 	}
 	@include medium{
-		width:200px;
+		&.pull{
+			width:200px;
+		}
 		&.pull-right{
 			float:right;
 			margin:0 0px 40px 40px;

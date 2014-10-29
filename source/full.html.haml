@@ -2,9 +2,13 @@
 title: Discover Meteor
 ---
 
-- content_for(:title, "Discover Meteor")
+- chapters = blog.articles.reverse.select {|chapter| !(chapter.data.published == false) && !(chapter.data.extra == true)}
+
+- content_for(:bookTitle, "Discover Meteor – Building Real-Time JavaScript Web Apps – Sacha Greif & Tom Coleman")
 
 =partial("partials/postcover")
 
-- blog.articles.reverse_each do |chapter|
+=partial("partials/print_toc", :locals=>{chapters:chapters})
+
+- chapters.each do |chapter|
   =partial("partials/print_chapter", :locals=>{chapter:chapter})

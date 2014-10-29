@@ -15,6 +15,10 @@
 		padding-bottom: 8px;
 		clear:both;
 	}
+	.chapter-number{
+		position: relative;
+		top: 12px;
+	}
 }
 .chapter-heading{
 	@include cf;
@@ -34,8 +38,6 @@
 	float:right;
 	font-weight:light();
 	color:$light-text;
-	position: relative;
-	top: 12px;
 }
 .post-top{
 	padding-bottom:10px;

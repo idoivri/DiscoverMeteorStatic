@@ -305,34 +305,35 @@
 #                                          Japanese                                      #
 # -------------------------------------------------------------------------------------- #
 - lang: 'jp'
+  moment_locale: 'ja'
   is_complete: false
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Jp'
   book_title: 'Discover Meteor'
   intro: >
-    This is the Japanese version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
-  commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+    この本は「[Discover Meteor](http://discovermeteor.com)」の日本語版です。
+    Discover Meteorコミュニティによって翻訳され、[クリエイティブ・コモンズ 表示-非営利](http://creativecommons.org/licenses/by-nc/4.0/deed.ja_JP)
+    ライセンスのもとで無料で提供されています。
+  toc: '目次'
+  contribute: '参加する'
+  on_github: '<em>Discover Meteor</em> @ GitHub'
+  translated_by: '翻訳した人'
+  code_issue: 'コードの問題点を報告する'
+  book_issue: '本の問題点を報告する'
+  discuss: "内容についてのディスカッションはこちらへどうぞ:"
+  in_this_chapter: "本章で学ぶこと:"
+  sidebar: "コラム"
+  and: "&"
+  commit: "コミット"
+  view_on_github: "GitHubで閲覧"
+  launch_instance: "インスタンスを起動"
+  error404: "お探しのページが見つかりませんでした。"
   disqus: "themeteorbook"
   ga: ""
-  percentage_translated: 'Percentage Translated'
-  download: 'Download'
-  print_pdf: 'Print > Save as PDF'
+  percentage_translated: '翻訳の進捗'
+  download: 'ダウンロードする'
+  print_pdf: '印刷→PDFとして保存'
   language_name: ''
-  last_activity: 'Last activity:'
+  last_activity: '最終更新:'
   
 # -------------------------------------------------------------------------------------- #
 #                                           Polish                                       #

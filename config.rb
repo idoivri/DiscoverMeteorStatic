@@ -47,7 +47,7 @@ page "chapters/*", :layout => :page_layout
 page "/full.html", :layout => :ebook_layout
 page "/excerpt.html", :layout => :ebook_layout
 page "/pdf.html", :layout => :ebook_layout
-page "/sample.html", :layout => :ebook_layout
+page "/starter.html", :layout => :ebook_layout
 
 page "api.html", :layout => :api_layout
 

@@ -32,9 +32,9 @@ This repo uses one [git submodule](http://git-scm.com/book/en/Git-Tools-Submodul
 
 ### Switching Language
 
-Middleman can only generate files for a single language at a time. It will look for a `LANG` environment variable, but if it can't find it it will fall back to a default language, as specificed in line 6 of `config.rb`:
+Middleman can only generate files for a single language at a time. It will look for a `DMLANG` environment variable, but if it can't find it it will fall back to a default language, as specificed in line 11 of `config.rb`:
 
-`LANG = ENV['LANG'] || 'fr'`
+`LANG = ENV['DMLANG'] || DEFAULTLANG`
 
 We recommend using that environment variable if you can. Otherwise, the easiest way to change your local language is simply to change this hardcoded string, and then restart Middleman. 
 

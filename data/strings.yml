@@ -936,36 +936,37 @@
 
 
 # -------------------------------------------------------------------------------------- #
-#                                           Blank                                        #
+#                                           Hebrew                                       #
 # -------------------------------------------------------------------------------------- #
 - lang: 'he'
   is_complete: false
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_he'
   book_title: 'Discover Meteor'
   intro: >
-    This is the Hebrew version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
+    זו הגרסה העברית של [Discover Meteor](http://discovermeteor.com),
+    תורגם על ידי קהילת Discover Meteor 
+    ומוצע בחינם לפי תנאי הרשיון הבאים:
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US)
+  toc: 'תוכן'
+  contribute: 'תרום'
+  on_github: '<em>Discover Meteor</em> ב- GitHub'
+  translated_by: 'תורגם ע"י'
+  code_issue: 'דווח על בעיה בקוד'
+  book_issue: 'דווח על בעיה בספר'
+  discuss: "או דון על הספר כאן:"
+  in_this_chapter: "בפרק זה:"
+  sidebar: "תפריט צד"
+  and: "ו-"
   commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+  view_on_github: "צפה ב- GitHub"
+  launch_instance: "הפעל מופע"
+  error404: "מצטערים, לא הצלחנו למצוא את מה שחיפשת."
   disqus: ""
   ga: ""
-  percentage_translated: 'Percentage Translated'
-  download: 'Download'
+  percentage_translated: 'אחוז תורגם'
+  download: 'הורדה'
   print_pdf: 'Print > Save as PDF'
-  language_name: ''
-  last_activity: 'Last activity:'
-  version: 'Version'
+  language_name: 'עברית'
+  last_activity: 'פעילות אחרונה:'
+  version: 'גירסה'
   

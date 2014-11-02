@@ -13,6 +13,29 @@ html, body{
 	background:white;
 	line-height:1.8;
 }
+html[lang="he"]{
+	direction:rtl;
+	body {direction:rtl;}
+
+	pre, .contributors {direction:ltr;}
+	p[data-value]:after {
+		/*left: 0;
+		right: initial;*/
+		display:none;
+	}
+	.post-nav .prev {float:right;}
+	.post-nav .next {float:left;}
+	
+	.post-content .portrait {
+		float:right;
+		margin: 0 0px 20px 20px;
+	}
+	p[data-value]:before {
+		content: attr(data-value) "% ";
+	}
+	.chapter-number {float: left !important;}
+	.toc li span {float:left;}
+}
 a{
 	font-weight:bold;
 	text-decoration:none;

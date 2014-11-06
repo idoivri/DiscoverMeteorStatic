@@ -304,10 +304,10 @@
 # -------------------------------------------------------------------------------------- #
 #                                          Japanese                                      #
 # -------------------------------------------------------------------------------------- #
-- lang: 'jp'
+- lang: 'ja'
   moment_locale: 'ja'
   is_complete: false
-  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Jp'
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Ja'
   book_title: 'Discover Meteor'
   intro: >
     この本は「[Discover Meteor](http://discovermeteor.com)」の日本語版です。

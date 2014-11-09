@@ -221,12 +221,12 @@
   book_issue: 'Сообщить об ошибке в книге'
   discuss: "Или обсудить содержание книги здесь:"
   in_this_chapter: "В этой главе вы:"
-  sidebar: "Сайдбар"
+  sidebar: "Отступление"
   and: "и"
   commit: "Коммит"
   view_on_github: "Открыть на GitHub"
   launch_instance: "Запустить копию"
-  error404: "Извините, мы не смогли найти то что вы искали."
+  error404: "Извините, мы не смогли найти то, что вы искали."
   disqus: "themeteorbook"
   ga: ""
   percentage_translated: 'На данный момент переведено'

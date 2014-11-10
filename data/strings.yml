@@ -33,6 +33,7 @@
 # 25. Swedish
 # 26. Hungarian
 # 27. Hebrew
+# 28. Bangla
 
 # -------------------------------------------------------------------------------------- #
 #                                           Blank                                        #
@@ -304,10 +305,10 @@
 # -------------------------------------------------------------------------------------- #
 #                                          Japanese                                      #
 # -------------------------------------------------------------------------------------- #
-- lang: 'jp'
+- lang: 'ja'
   moment_locale: 'ja'
   is_complete: false
-  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Jp'
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Ja'
   book_title: 'Discover Meteor'
   intro: >
     この本は「[Discover Meteor](http://discovermeteor.com)」の日本語版です。
@@ -969,4 +970,73 @@
   language_name: 'עברית'
   last_activity: 'פעילות אחרונה:'
   version: 'גירסה'
+
+# -------------------------------------------------------------------------------------- #
+#                                          Bangla                                        #
+# -------------------------------------------------------------------------------------- #
+- lang: 'bn'
+  is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_bn'
+  book_title: 'Discover Meteor'
+  intro: >
+    This is the Bangla version of [Discover Meteor](http://discovermeteor.com),
+    translated by the Discover Meteor community and made available for free under a
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
+  toc: 'Table Of Contents'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor</em> on GitHub'
+  translated_by: 'Translated by'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  commit: "Commit"
+  view_on_github: "View on GitHub"
+  launch_instance: "Launch Instance"
+  error404: "Sorry, we couldn't find what you were looking for."
+  disqus: ""
+  ga: ""
+  percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  last_activity: 'Last activity:'
+  version: 'Version'
+  
+
+# -------------------------------------------------------------------------------------- #
+#                                          Tamil                                        #
+# -------------------------------------------------------------------------------------- #
+- lang: 'ta'
+  is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_ta'
+  book_title: 'Discover Meteor'
+  intro: >
+    This is the Tamil version of [Discover Meteor](http://discovermeteor.com),
+    translated by the Discover Meteor community and made available for free under a
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
+  toc: 'Table Of Contents'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor</em> on GitHub'
+  translated_by: 'Translated by'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  commit: "Commit"
+  view_on_github: "View on GitHub"
+  launch_instance: "Launch Instance"
+  error404: "Sorry, we couldn't find what you were looking for."
+  disqus: ""
+  ga: ""
+  percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  last_activity: 'Last activity:'
+  version: 'Version'
   

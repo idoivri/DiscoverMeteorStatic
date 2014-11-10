@@ -81,4 +81,4 @@
 	url = git://github.com/DiscoverMeteor/DiscoverMeteor_ta.git
 [submodule "source/chapters/ja"]
 	path = source/chapters/ja
-	url = git@github.com:DiscoverMeteor/DiscoverMeteor_Ja.git
+	url = git://github.com/DiscoverMeteor/DiscoverMeteor_Ja.git

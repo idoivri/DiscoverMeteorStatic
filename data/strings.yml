@@ -306,7 +306,6 @@
 #                                          Japanese                                      #
 # -------------------------------------------------------------------------------------- #
 - lang: 'ja'
-  moment_locale: 'ja'
   is_complete: false
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Ja'
   book_title: 'Discover Meteor'

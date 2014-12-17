@@ -8,7 +8,7 @@ title: Discover Meteor
 
 =partial("partials/postcover")
 
-=partial("partials/print_toc", :locals=>{chapters:chapters})
+=#partial("partials/print_toc", :locals=>{chapters:chapters})
 
 - chapters.each do |chapter|
   =partial("partials/print_chapter", :locals=>{chapter:chapter})

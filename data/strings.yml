@@ -68,7 +68,7 @@
   language_name: ''
   last_activity: 'Last activity:'
   version: 'Version'
-  
+
 # -------------------------------------------------------------------------------------- #
 #                                           English                                      #
 # -------------------------------------------------------------------------------------- #
@@ -278,7 +278,7 @@
   book_title: 'Discover Meteor'
   intro: >
     이 책은 [Discover Meteor](http://discovermeteor.com)의 한글판으로서,
-    Discover Meteor 커뮤니티에서 번역하였으며, 
+    Discover Meteor 커뮤니티에서 번역하였으며,
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) 라이센스에 따라 무료로 이용하실 수 있습니다.
   toc: '차 례'
   contribute: '기여하기'
@@ -334,7 +334,7 @@
   print_pdf: '印刷→PDFとして保存'
   language_name: ''
   last_activity: '最終更新:'
-  
+
 # -------------------------------------------------------------------------------------- #
 #                                           Polish                                       #
 # -------------------------------------------------------------------------------------- #
@@ -367,7 +367,7 @@
   print_pdf: 'Wydrukuj > Zapisz jako PDF'
   language_name: ''
   last_activity: 'Ostatnia aktywność:'
-  
+
 # -------------------------------------------------------------------------------------- #
 #                                           Greek                                        #
 # -------------------------------------------------------------------------------------- #
@@ -400,7 +400,7 @@
   print_pdf: 'Print > Save as PDF'
   language_name: ''
   last_activity: 'Last activity:'
-  
+
 # -------------------------------------------------------------------------------------- #
 #                                         Portuguese                                     #
 # -------------------------------------------------------------------------------------- #
@@ -433,7 +433,7 @@
   print_pdf: 'Print > Save as PDF'
   language_name: ''
   last_activity: 'Last activity:'
-  
+
 # -------------------------------------------------------------------------------------- #
 #                                          Italian                                       #
 # -------------------------------------------------------------------------------------- #
@@ -466,7 +466,7 @@
   print_pdf: 'Stampa > Salva come PDF'
   language_name: 'Italiano'
   last_activity: 'Ultima revisione:'
-  
+
 # -------------------------------------------------------------------------------------- #
 #                                           Dutch                                        #
 # -------------------------------------------------------------------------------------- #
@@ -532,7 +532,7 @@
   print_pdf: 'Cetak > Simpan sebagai PDF'
   language_name: ''
   last_activity: 'Aktifitas terakhir:'
-  
+
 # -------------------------------------------------------------------------------------- #
 #                                          Romanian                                      #
 # -------------------------------------------------------------------------------------- #
@@ -565,7 +565,7 @@
   print_pdf: 'Deschide ca PDF'
   language_name: 'Romana'
   last_activity: 'Last activity:'
-  
+
 
 # -------------------------------------------------------------------------------------- #
 #                                          Danish                                        #
@@ -632,7 +632,7 @@
   print_pdf: 'Print > Spremi kao PDF'
   language_name: ''
   last_activity: 'Zadnja aktivnost:'
-  
+
 # -------------------------------------------------------------------------------------- #
 #                                           Malay                                        #
 # -------------------------------------------------------------------------------------- #
@@ -675,8 +675,8 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_tr'
   book_title: 'Meteoru Keşfet'
   intro: >
-    Bu, [Discover Meteor](http://discovermeteor.com)'un, Discover Meteor topluluğu tarafından tercüme 
-    edilen ve [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) 
+    Bu, [Discover Meteor](http://discovermeteor.com)'un, Discover Meteor topluluğu tarafından tercüme
+    edilen ve [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US)
     lisansı altında ücretsiz sunulan versiyonudur.
   toc: 'İçindekiler'
   contribute: 'Katkıda Bulun'
@@ -708,8 +708,8 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_am'
   book_title: 'ዲስካቨር ሚትዩር'
   intro: >
-    ይህ የ[Discover Meteor](http://discovermeteor.com) መጸሐፍ የኣማርኛ ቅጂ ነው፤ 
-    በዲስካቨር ሚትዩር ማህበረሰብ ተተርጉሞ በ[Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) 
+    ይህ የ[Discover Meteor](http://discovermeteor.com) መጸሐፍ የኣማርኛ ቅጂ ነው፤
+    በዲስካቨር ሚትዩር ማህበረሰብ ተተርጉሞ በ[Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US)
     ፍቃድ በነፃ የተበረከተ ነው።
   toc: 'የይዞታ ሰንጠረዥ'
   contribute: 'ያዋጡ'
@@ -865,7 +865,7 @@
   language_name: ''
   last_activity: 'Last activity:'
   version: 'Version'
-  
+
 # -------------------------------------------------------------------------------------- #
 #                                           Swedish                                      #
 # -------------------------------------------------------------------------------------- #
@@ -875,7 +875,7 @@
   book_title: 'Upptäck Meteor'
   intro: >
     Detta är den Svenska versionen av [Discover Meteor](http://discovermeteor.com),
-    översatt av communityt för Discover Meteor och gjorts tillgängligt gratis under en 
+    översatt av communityt för Discover Meteor och gjorts tillgängligt gratis under en
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) -licens.
   toc: 'Innehållsförteckning'
   contribute: 'Bidra'
@@ -906,33 +906,34 @@
 - lang: 'hu'
   is_complete: false
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_hu'
-  book_title: 'Discover Meteor'
+  book_title: 'Fedezd fel a Meteort!'
   intro: >
-    This is the Hungarian version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
+    Ez [Discover Meteor](http://discovermeteor.com) magyar változata, melyet
+    a Discover Meteor közössége fordított és tett közzé ingyen a [Creative
+    Commons Attribution-NonCommercial]
+    (http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) liszensz alapján.
+  toc: 'Tartalomjegyzék'
+  contribute: 'Közreműködés'
+  on_github: '<em>Discover Meteor</em> a GitHubon'
+  translated_by: 'Fordította'
+  code_issue: 'Észrevétel a forráskóddal kapcsolatban'
+  book_issue: 'Észrevétel a könyvvel kapcsolatban'
+  discuss: "A könyv tartalmának megvitatása:"
+  in_this_chapter: "Ebben a fejezetben megtudhatod:"
+  sidebar: "Oldalsáv"
+  and: "és"
   commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+  view_on_github: "Megtekintés a GitHubon"
+  launch_instance: "Példány elindítása"
+  error404: "A kért oldal nem található"
   disqus: ""
   ga: ""
-  percentage_translated: 'Percentage Translated'
-  download: 'Download'
-  print_pdf: 'Print > Save as PDF'
+  percentage_translated: 'A fordítás állapota'
+  download: 'Letöltés'
+  print_pdf: 'Nyomtatás > Mentés PDF-ként'
   language_name: ''
-  last_activity: 'Last activity:'
-  version: 'Version'
+  last_activity: 'Utolsó módosítás:'
+  version: 'Verzió'
 
 
 # -------------------------------------------------------------------------------------- #
@@ -944,7 +945,7 @@
   book_title: 'Discover Meteor'
   intro: >
     זו הגרסה העברית של [Discover Meteor](http://discovermeteor.com),
-    תורגם על ידי קהילת Discover Meteor 
+    תורגם על ידי קהילת Discover Meteor
     ומוצע בחינם לפי תנאי הרשיון הבאים:
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US)
   toc: 'תוכן'
@@ -1003,7 +1004,7 @@
   language_name: ''
   last_activity: 'Last activity:'
   version: 'Version'
-  
+
 
 # -------------------------------------------------------------------------------------- #
 #                                          Tamil                                        #
@@ -1038,4 +1039,3 @@
   language_name: ''
   last_activity: 'Last activity:'
   version: 'Version'
-  

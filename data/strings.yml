@@ -906,7 +906,7 @@
 - lang: 'hu'
   is_complete: false
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_hu'
-  book_title: 'Fedezd fel a Meteort!'
+  book_title: 'Fedezd&nbsp;fel&nbsp;a Meteort!'
   intro: >
     Ez a [Discover Meteor](http://discovermeteor.com) magyar változata, melyet
     a Discover Meteor közössége fordított és tett közzé ingyen a [Creative

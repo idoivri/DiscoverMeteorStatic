@@ -82,3 +82,6 @@
 [submodule "source/chapters/ja"]
 	path = source/chapters/ja
 	url = git://github.com/DiscoverMeteor/DiscoverMeteor_Ja.git
+[submodule "source/chapters/bg"]
+	path = source/chapters/bg
+	url = git://github.com/DiscoverMeteor/DiscoverMeteor_bg.git

@@ -1082,7 +1082,7 @@
 # -------------------------------------------------------------------------------------- #
 #                                        Lithuanian                                      #
 # -------------------------------------------------------------------------------------- #
-- lang: 'ta'
+- lang: 'lt'
   is_complete: false
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_lt'
   book_title: 'Discover Meteor'

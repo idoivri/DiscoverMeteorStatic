@@ -746,30 +746,30 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_uk'
   book_title: 'Discover Meteor'
   intro: >
-    This is the Ukrainian version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
-  commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+    Це українська версія книги [Discover Meteor](http://discovermeteor.com),
+    перекладена співтовариством Discover Meteor и надана безкоштовно згідно ліцензії 
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
+  toc: 'Зміст'
+  contribute: 'Внести зміни'
+  on_github: '<em>Discover Meteor</em> на GitHub'
+  translated_by: 'Перекладено'
+  code_issue: 'Повідомити про помилку в коді'
+  book_issue: 'Повідомити про помилку в книзі'
+  discuss: "Або обговорити зміст книги тут:"
+  in_this_chapter: "В цьому розділі ви:"
+  sidebar: "Відступ"
+  and: "і"
+  commit: "Комміт"
+  view_on_github: "Переглянути на GitHub"
+  launch_instance: "Запустити приклад"
+  error404: "Вибачте, ми не змогли знайти те, що ви шукаєте."
   disqus: ""
   ga: ""
-  percentage_translated: 'Percentage Translated'
-  download: 'Download'
-  print_pdf: 'Print > Save as PDF'
+  percentage_translated: 'Відсоток перекладу'
+  download: 'Завантажити'
+  print_pdf: 'Роздрукувати > Зберегти як PDF'
   language_name: ''
-  last_activity: 'Last activity:'
+  last_activity: 'Остання активність:'
 
 # -------------------------------------------------------------------------------------- #
 #                                            Thai                                        #

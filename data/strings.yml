@@ -786,7 +786,7 @@
   contribute: 'ช่วยแปลหน่อย'
   on_github: '<em>Discover Meteor</em> บน GitHub'
   translated_by: 'แปลโดย'
-  code_issue: 'แจ้งปัญหาเกี่ยวกับโค้ด'
+  code_issue: 'แจ้งปัญหาเรื่องโค้ด'
   book_issue: 'แจ้งปัญหาเกี่ยวกับหนังสือ'
   discuss: "หรือพูดคุยเกี่ยวกับเนื้อหาในหนังสือที่นี่"
   in_this_chapter: "ในบทนี้ คุณจะได้"
@@ -794,13 +794,13 @@
   and: "และ"
   commit: "คอมมิท"
   view_on_github: "ดูโค้ดบน GitHub"
-  launch_instance: "Launch Instance"
+  launch_instance: "เปิดหน้าทดสอบ"
   error404: "ขออภัย เราไม่พบสิ่งที่คุณตามหา"
   disqus: ""
   ga: ""
   percentage_translated: 'แปลไปแล้ว'
   download: 'ดาวน์โหลด'
-  print_pdf: 'Print > Save as PDF'
+  print_pdf: 'พิมพ์ > บันทึกเป็น PDF'
   language_name: 'ไทย'
   last_activity: 'แก้ไขล่าสุดเมื่อ'
 

@@ -1,4 +1,4 @@
-DEFAULTLANG = 'sw'
+DEFAULTLANG = 'zh'
 
 # see http://randomerrata.com/post/56163474367/middleman-on-heroku
 

@@ -1,4 +1,4 @@
-DEFAULTLANG = 'zh'
+DEFAULTLANG = 'en'
 
 @github_token = '33deedd6f4d1ac97eb9e74e277a139861df677a4'
 
@@ -18,7 +18,7 @@ end
 
 parts = (ENV['TOGO'] || "01:0,02:0,02s:0,03:0,03s:0,04:1,04s:0,05:72,05s:33,06:27,06s:20,07:60,07s:28,08:29,08s:16,09:31,09s:22,10:34,10s:15,11:25,11s:29,12:67,13:49,13s:36,14:58,14s:24").split(',').map{|s| s.split(':')}.flatten
 TOGO = Hash[Hash[*parts].map{|key,value| [key.sub(/^0+/, '').sub("s", ".5"), value]}]
-p TOGO
+# p TOGO
 
 @togo = TOGO
 
@@ -90,7 +90,10 @@ helpers do
   end
   def screenshot(name, caption, css_class="")
     %Q{<figure class="screenshot #{css_class}"><img src="#{S3_URL}screenshots/#{name}.png" alt="#{caption}"/><figcaption>#{caption}</figcaption></figure>}
-  end    
+  end
+  def gifscreenshot(name, caption, css_class="")
+    %Q{<figure class="screenshot #{css_class}"><img src="#{S3_URL}screenshots/#{name}.gif" alt="#{caption}"/><figcaption>#{caption}</figcaption></figure>}
+  end 
   def commit(name, caption)
     caption = truncate(caption, :length => 60)
     %Q{<div class="commit"><img src="/images/code.svg"/><div class="message"><h4>#{@strings.commit} #{name}</h4><p>#{caption}</p></div><div class="actions"><a class="commit-link" href="https://github.com/DiscoverMeteor/Microscope/commit/chapter#{name}" target="_blank">#{@strings.view_on_github}</a><a class="instance-link" href="http://meteor-book-chapter#{name}.meteor.com" target="_blank" class="live-instance">#{@strings.launch_instance}</a></div></div>}

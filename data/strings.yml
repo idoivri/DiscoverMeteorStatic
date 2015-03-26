@@ -747,7 +747,7 @@
   book_title: 'Discover Meteor'
   intro: >
     Це українська версія книги [Discover Meteor](http://discovermeteor.com),
-    перекладена співтовариством Discover Meteor і надана безкоштовно згідно ліцензії 
+    перекладена співтовариством Discover Meteor і надана безкоштовно згідно ліцензії
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
   toc: 'Зміст'
   contribute: 'Внести зміни'
@@ -924,7 +924,7 @@
   code_issue: 'Észrevétel a forráskóddal kapcsolatban'
   book_issue: 'Észrevétel a könyvvel kapcsolatban'
   discuss: "A könyv tartalmának megvitatása:"
-  in_this_chapter: "Ebben a fejezetben megtudhatod:"
+  in_this_chapter: "Ebben a fejezetben:"
   sidebar: "Oldalsáv"
   and: "és"
   commit: "Commit"

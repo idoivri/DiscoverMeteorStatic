@@ -1,6 +1,6 @@
-DEFAULTLANG = 'en'
+DEFAULTLANG = 'es'
 
-@github_token = '33deedd6f4d1ac97eb9e74e277a139861df677a4'
+@github_token = 'ab66a6418554249821c77d96d3f6c72a6d42711a'
 
 ###
 # Blog settings

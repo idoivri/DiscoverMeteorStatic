@@ -51,8 +51,8 @@
   - if changelog.has_key?('version') && changelog.has_key?('updated')
     .version
       %h3=@strings.version
-      %p 
-        #{@strings.version} #{changelog['version']}, updated #{changelog['updated']} 
+      %p
+        #{@strings.version} #{changelog['version']}, #{changelog['updated']}
         (<a href="/changelog">#{changelog['title']}</a>)
 
 :javascript
@@ -61,7 +61,7 @@
     var gitHubToken = "#{@github_token}";
     var lang = "#{@strings.lang}";
 
-    $.get('https://api.github.com/repos/DiscoverMeteor/DiscoverMeteor_'+lang+'/contributors?access_token='+gitHubToken, function (data) {
+    $.get('https://api.github.com/repos/DiscoverMeteor/DiscoverMeteor_'+lang+'/contributors', function (data) {
       data.sort(function(obj1, obj2) {
         return obj2.contributions - obj1.contributions;
       });
@@ -71,7 +71,7 @@
       });
     });
 
-    $.getJSON('https://api.github.com/repos/DiscoverMeteor/DiscoverMeteor_'+lang+'/commits?access_token='+gitHubToken, function (data) {
+    $.getJSON('https://api.github.com/repos/DiscoverMeteor/DiscoverMeteor_'+lang+'/commits', function (data) {
       var date = moment(data[0].commit.author.date).fromNow();
       $('.commit-date .date').text(date);
     });

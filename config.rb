@@ -1,6 +1,6 @@
 DEFAULTLANG = 'es'
 
-@github_token = 'ab66a6418554249821c77d96d3f6c72a6d42711a'
+#@github_token = 'ab66a6418554249821c77d96d3f6c72a6d42711a'
 
 ###
 # Blog settings
@@ -84,7 +84,7 @@ helpers do
   end
   def figure(src, caption="", css_class="")
     %Q{<figure class="#{css_class}"><img src="/images/#{src}"/><figcaption>#{caption}</figcaption></figure>}
-  end  
+  end
   def diagram(name, caption, css_class="")
     %Q{<figure class="diagram #{css_class}"><img src="#{S3_URL}diagrams/#{name}@2x.png" alt="#{caption}"/><figcaption>#{caption}</figcaption></figure>}
   end
@@ -93,21 +93,21 @@ helpers do
   end
   def gifscreenshot(name, caption, css_class="")
     %Q{<figure class="screenshot #{css_class}"><img src="#{S3_URL}screenshots/#{name}.gif" alt="#{caption}"/><figcaption>#{caption}</figcaption></figure>}
-  end 
+  end
   def commit(name, caption)
     caption = truncate(caption, :length => 60)
     %Q{<div class="commit"><img src="/images/code.svg"/><div class="message"><h4>#{@strings.commit} #{name}</h4><p>#{caption}</p></div><div class="actions"><a class="commit-link" href="https://github.com/DiscoverMeteor/Microscope/commit/chapter#{name}" target="_blank">#{@strings.view_on_github}</a><a class="instance-link" href="http://meteor-book-chapter#{name}.meteor.com" target="_blank" class="live-instance">#{@strings.launch_instance}</a></div></div>}
-  end  
+  end
   def scommit(name, caption)
     caption = truncate(caption, :length => 60)
     %Q{<div class="commit"><img src="/images/code.svg"/><div class="message"><h4>#{@strings.commit} #{name}</h4><p>#{caption}</p></div><div class="actions"><a class="commit-link" href="https://github.com/DiscoverMeteor/Microscope/commit/sidebar#{name}" target="_blank">#{@strings.view_on_github}</a><a class="instance-link" href="http://meteor-book-sidebar#{name}.meteor.com" target="_blank" class="live-instance">#{@strings.launch_instance}</a></div></div>}
-  end    
+  end
   def highlight(lines, css_class="added")
     %Q{<div class="lines-highlight" data-lines="#{lines}" data-class="#{css_class}"></div>}
   end
   def pullquote(content, css_class="left")
     %Q{<blockquote class="pull pull-#{css_class}">#{content}</blockquote>}
-  end        
+  end
   def note(&block)
     markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :fenced_code_blocks => true)
     content = markdown.render(capture(&block))

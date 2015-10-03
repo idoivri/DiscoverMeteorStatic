@@ -954,19 +954,19 @@
     ומוצע בחינם לפי תנאי הרשיון הבאים:
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US)
   toc: 'תוכן'
-  contribute: 'תרום'
+  contribute: 'תרמו'
   on_github: '<em>Discover Meteor</em> ב- GitHub'
   translated_by: 'תורגם ע"י'
-  code_issue: 'דווח על בעיה בקוד'
-  book_issue: 'דווח על בעיה בספר'
-  discuss: "או דון על הספר כאן:"
+  code_issue: 'דווחו על בעיה בקוד'
+  book_issue: 'דווחו על בעיה בספר'
+  discuss: "או דונו על הספר כאן:"
   in_this_chapter: "בפרק זה:"
   sidebar: "תפריט צד"
   and: "ו-"
   commit: "Commit"
-  view_on_github: "צפה ב- GitHub"
-  launch_instance: "הפעל מופע"
-  error404: "מצטערים, לא הצלחנו למצוא את מה שחיפשת."
+  view_on_github: "צפו ב- GitHub"
+  launch_instance: "הפעילו מופע"
+  error404: "מצטערים, לא הצלחנו למצוא את מה שחיפשתם."
   disqus: ""
   ga: ""
   percentage_translated: 'אחוז תורגם'
